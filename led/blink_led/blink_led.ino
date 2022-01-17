@@ -2,6 +2,7 @@
 #include <BlynkSimpleEsp8266.h>
 #define FASTLED_ESP8266_RAW_PIN_ORDER
 #include "FastLED.h"
+#include "../client/conf.h"
 
 #define NUM_LEDS1 132
 #define LED_TYPE    WS2812
@@ -9,7 +10,6 @@
 CRGB leds1[NUM_LEDS1];
 char auth[] = "0XG-mvttwXjrvdxswgFJCAQCYUiYze4d";
 char ssid[] = "HSS008";
-char pass[] = "58695599890492759959";
 #define PIN1 D1
 
 int data=255;
