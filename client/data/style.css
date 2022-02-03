@@ -176,7 +176,6 @@ body{
 	#container{
 		display: flex;
 		flex-direction: column;
-		/*важно для телефона т.к. при скролле наблюдаеться заторможение*/
 	}
 
 	#picker{
